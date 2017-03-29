@@ -2,7 +2,9 @@
 
 #Input Array should always have at least 3 integers
 #Can have negative and positive
-#O(N) time and O(1) space
+#O(Nlog(N)) time and O(1) space
+#This works fine for smaller arrays in O(nlogn)
+
 
 def getMaxProductOfThree(inputArray):
 
